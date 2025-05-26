@@ -10,15 +10,13 @@ public class ex005 {
         return formatada;
     }
     public static int calculateHighScorePosition(int playersScore) {
-        int position = 1;
+        int position = 4;
         if (playersScore >= 1000) {
             position = 1;
         }else if(playersScore >= 500) {
             position = 2;
         }else if(playersScore >= 100) {
             position = 3;
-        }else{
-            position = 4;
         }
         return position;
     }

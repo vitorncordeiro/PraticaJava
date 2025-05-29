@@ -1,7 +1,7 @@
 public class ex005 {
     public static void main(String[] args) {
-        int alturaVitorOnlyInches = 74;
-        System.out.println("74 inches in cm: ");
+        int alturaVitorOnlyInches = 75;
+        System.out.println("75 inches in cm: ");
         convertToCentimeters(alturaVitorOnlyInches);
         int alturaVitorFeets = 6;
         int alturaVitorInches = 2;

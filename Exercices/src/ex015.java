@@ -4,8 +4,8 @@ public class ex005 {
         System.out.println("75 inches in cm: ");
         convertToCentimeters(alturaVitorOnlyInches);
         int alturaVitorFeets = 6;
-        int alturaVitorInches = 2;
-        System.out.println("6'2 in cm: ");
+        int alturaVitorInches = 4;
+        System.out.println("6'4 in cm: ");
         convertToCentimeters(alturaVitorFeets, alturaVitorInches);
 
     }

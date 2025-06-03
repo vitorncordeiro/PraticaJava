@@ -3,7 +3,7 @@ public class Main {
         boolean isOlder = false;
         boolean isNew = true;
         if (isOlder) {
-            System.out.println("Older");
+            System.out.println("Oldeer");
             System.out.println("Velho");
         }
         else if (isNew) {

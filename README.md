@@ -17,7 +17,7 @@ Repositório com exercícios e práticas em Java. Ideal para reforçar lógica d
 1. Clone o repositório:
    ```bash
    git clone https://github.com/vitorncordeiro/PraticaJava.git
-````
+``
 
 2. Entre no diretório:
 
@@ -58,26 +58,6 @@ Repositório com exercícios e práticas em Java. Ideal para reforçar lógica d
 * Tratamento de exceções (`try-catch`) com `NumberFormatException`.
 * Conversões entre `String` e tipos primitivos (`Integer.parseInt`, `String.valueOf`).
 * Conceitos de programação defensiva e validações de input.
-
----
-
-## ✅ Como contribuir
-
-1. Crie uma nova *branch*:
-
-   ```bash
-   git checkout -b feature/nome-do-exercicio
-   ```
-2. Adicione um novo exercício como uma nova classe `.java`, com código limpo e documentação mínima.
-3. Teste localmente, garanta que compila e executa corretamente.
-4. Abra um *pull request* descrevendo o exercício e o que ele faz.
-
----
-
-## 🎓 Próximos tópicos
-
-Você pode expandir o repositório com:
-
 * Exercícios com **arrays** e **listas**.
 * Leitura e escrita em **arquivos**.
 * Programação **orientada a objetos** com criação de classes.
@@ -88,7 +68,7 @@ Você pode expandir o repositório com:
 
 ## ⚙️ Requisitos
 
-* Java 8 ou superior.
+* Java 8 ou superior (especificamente utilizei java 17).
 * JDK configurado corretamente no PATH.
 * Editor/IDE como IntelliJ IDEA, Eclipse, VS Code etc.
 

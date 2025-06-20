@@ -27,18 +27,18 @@ Repositório com exercícios e práticas em Java. Ideal para reforçar lógica d
 3. Compile e execute os arquivos desejados. Por exemplo:
 
    ```bash
-   javac Ex005.java
-   java Ex005
+   javac ex005.java
+   java ex005
    ```
 
-   (Substitua `Ex005` pelo nome da classe/arquivo que deseja executar.)
+   (Substitua `ex005` pelo nome da classe/arquivo que deseja executar.)
 
 ---
 
 ## 🔧 Exercícios presentes
 
 * **Leitura de múltiplos números e soma com tratamento de input inválido**
-  Exemplo: `Ex005.java` lê 5 números inteiros (tratando erros) e retorna a soma.
+  Exemplo: `ex005.java` lê 5 números inteiros (tratando erros) e retorna a soma.
 
 * **Validação de palíndromo numérico**
   Exemplo: `NumberPalindrome.java` verifica se um número é palíndromo (incluindo números negativos).

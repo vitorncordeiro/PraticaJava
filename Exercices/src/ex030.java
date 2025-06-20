@@ -2,23 +2,24 @@ import java.util.Scanner;
 
 public class ex005 {
     public static void main(String[] args) {
-        System.out.println(menu());
+        System.out.println(menu(5));
     }
-    public static int menu(){
-            Scanner sc = new Scanner(System.in);
-            int contador = 0;
-            int acc = 0;
-            do{
-                System.out.println("Digite o numero#" + (contador + 1) + ": ");
-                String num = sc.nextLine();
-                try{
-                    int numCerto = Integer.parseInt(num);
-                    contador++;
-                    acc += numCerto;
-                }catch(NumberFormatException e){
-                    System.out.println("Erro ao tentar inserir um numero");
-                }
-            }while(contador < 5);
+    public static int menu(int quantidade){
+        Scanner sc = new Scanner(System.in);
+        int contador = 0;
+        int acc = 0;
+        while (contador < quantidade) {
+            System.out.printf("Digite o número #%d: ", contador + 1);
+            String entrada = sc.nextLine();
+
+            try {
+                int numero = Integer.parseInt(entrada);
+                acc += numero;
+                contador++;
+            } catch (NumberFormatException e) {
+                System.out.println("Entrada inválida. Por favor, digite um número inteiro.");
+            }
+        }
             return acc;
     }
 

@@ -1,0 +1,109 @@
+
+# 🧪 PraticaJava
+
+Repositório com exercícios e práticas em Java. Ideal para reforçar lógica de programação, estruturas de controle, manipulação de tipos primitivos e objetos, tratamento de exceções e uso de `Scanner`.
+
+---
+
+## 📂 Estrutura
+
+- Cada exercício está em uma classe Java separada.
+- Os nomes seguem um padrão `exNNN.java`, onde `NNN` é o número do exercício.
+
+---
+
+## 📌 Como usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/vitorncordeiro/PraticaJava.git
+````
+
+2. Entre no diretório:
+
+   ```bash
+   cd PraticaJava
+   ```
+3. Compile e execute os arquivos desejados. Por exemplo:
+
+   ```bash
+   javac Ex005.java
+   java Ex005
+   ```
+
+   (Substitua `Ex005` pelo nome da classe/arquivo que deseja executar.)
+
+---
+
+## 🔧 Exercícios presentes
+
+* **Leitura de múltiplos números e soma com tratamento de input inválido**
+  Exemplo: `Ex005.java` lê 5 números inteiros (tratando erros) e retorna a soma.
+
+* **Validação de palíndromo numérico**
+  Exemplo: `NumberPalindrome.java` verifica se um número é palíndromo (incluindo números negativos).
+
+* **Cálculo de soma de dígitos pares**
+  Exemplo: `EvenDigitSum.java` soma apenas os dígitos pares de um número.
+
+* **Outros exercícios de lógica e manipulação de strings/números**
+  (Adicione aqui os nomes das classes já presentes ou que forem criadas.)
+
+---
+
+## 💡 Principais aprendizados
+
+* Uso de `Scanner` para entrada do usuário.
+* Laços de repetição (`while`, `do-while`, `for`).
+* Tratamento de exceções (`try-catch`) com `NumberFormatException`.
+* Conversões entre `String` e tipos primitivos (`Integer.parseInt`, `String.valueOf`).
+* Conceitos de programação defensiva e validações de input.
+
+---
+
+## ✅ Como contribuir
+
+1. Crie uma nova *branch*:
+
+   ```bash
+   git checkout -b feature/nome-do-exercicio
+   ```
+2. Adicione um novo exercício como uma nova classe `.java`, com código limpo e documentação mínima.
+3. Teste localmente, garanta que compila e executa corretamente.
+4. Abra um *pull request* descrevendo o exercício e o que ele faz.
+
+---
+
+## 🎓 Próximos tópicos
+
+Você pode expandir o repositório com:
+
+* Exercícios com **arrays** e **listas**.
+* Leitura e escrita em **arquivos**.
+* Programação **orientada a objetos** com criação de classes.
+* Uso de frameworks de teste como **JUnit**.
+* Práticas envolvendo **streams** e **manipulação funcional**.
+
+---
+
+## ⚙️ Requisitos
+
+* Java 8 ou superior.
+* JDK configurado corretamente no PATH.
+* Editor/IDE como IntelliJ IDEA, Eclipse, VS Code etc.
+
+---
+
+## 📝 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE). Fique à vontade para usar, modificar e redistribuir.
+
+---
+
+## 🚀 Autor
+
+**Vitor N. Cordeiro**
+Repositório de prática Java fácil de clonar e testar localmente.
+
+---
+

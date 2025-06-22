@@ -80,7 +80,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE). Fique à vontade par
 
 ---
 
-## 🚀 Autor
+## 🙋‍♂️ Autor
 
 **Vitor N. Cordeiro**
 Repositório de prática Java fácil de clonar e testar localmente.

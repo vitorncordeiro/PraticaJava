@@ -1,5 +1,5 @@
 
-# 🧪 PraticaJava
+# ☕ PraticaJava
 
 Repositório com exercícios e práticas em Java. Ideal para reforçar lógica de programação, estruturas de controle, manipulação de tipos primitivos e objetos, tratamento de exceções e uso de `Scanner`.
 

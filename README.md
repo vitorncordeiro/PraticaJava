@@ -7,7 +7,8 @@ Repositório com exercícios e práticas em Java. Ideal para reforçar lógica d
 
 ## 📂 Estrutura
 
-- Cada exercício está em uma classe Java separada.
+- Cada exercício inicial está em uma classe Java separada.
+- Os exercícios que começam a incluir POO, estão em pastas com nomenclatura igual ao restante dos exercícios
 - Os nomes seguem um padrão `exNNN.java`, onde `NNN` é o número do exercício.
 
 ---

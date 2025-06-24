@@ -9,7 +9,7 @@ public class ex005 {
         int contador = 0;
         int acc = 0;
         while (contador < quantidade) {
-            System.out.printf("Digite o número #%d: ", contador + 1);
+            System.out.printf("Diigite o número #%d: ", contador + 1);
             String entrada = sc.nextLine();
 
             try {

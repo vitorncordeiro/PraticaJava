@@ -36,33 +36,16 @@ Repositório com exercícios e práticas em Java. Ideal para reforçar lógica d
 
 ---
 
-## 🔧 Exercícios presentes
-
-* **Leitura de múltiplos números e soma com tratamento de input inválido**
-  Exemplo: `ex005.java` lê 5 números inteiros (tratando erros) e retorna a soma.
-
-* **Validação de palíndromo numérico**
-  Exemplo: `NumberPalindrome.java` verifica se um número é palíndromo (incluindo números negativos).
-
-* **Cálculo de soma de dígitos pares**
-  Exemplo: `EvenDigitSum.java` soma apenas os dígitos pares de um número.
-
-* **Outros exercícios de lógica e manipulação de strings/números**
-  (Adicione aqui os nomes das classes já presentes ou que forem criadas.)
-
----
-
 ## 💡 Principais aprendizados
 
 * Uso de `Scanner` para entrada do usuário.
-* Laços de repetição (`while`, `do-while`, `for`).
+* Laços de repetição (`while`, `do-while`, `for`) especificamente no Java.
 * Tratamento de exceções (`try-catch`) com `NumberFormatException`.
 * Conversões entre `String` e tipos primitivos (`Integer.parseInt`, `String.valueOf`).
 * Conceitos de programação defensiva e validações de input.
 * Exercícios com **arrays** e **listas**.
 * Leitura e escrita em **arquivos**.
 * Programação **orientada a objetos** com criação de classes.
-* Uso de frameworks de teste como **JUnit**.
 * Práticas envolvendo **streams** e **manipulação funcional**.
 
 ---
@@ -84,7 +67,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE). Fique à vontade par
 ## 🙋‍♂️ Autor
 
 **Vitor N. Cordeiro**
-Repositório de prática Java fácil de clonar e testar localmente.
 
 ---
 

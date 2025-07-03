@@ -3,7 +3,7 @@ public class Main {
         Banco contaVitor = new Banco();
         contaVitor.setName("Vitor");
         contaVitor.setBalance(0);
-        contaVitor.setEmail("vitor@gmail.com");
+        contaVitor.setEmail("vitorr@gmail.com");
         contaVitor.setAccountNumber(123);
         contaVitor.setPhone("999");
 

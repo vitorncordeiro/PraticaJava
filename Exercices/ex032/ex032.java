@@ -26,7 +26,7 @@ public class ex032 {
     }
     public double getDivisionResult(){
         if (secondNumber == 0){
-            return 0;
+            return -1;
         }
         return firstNumber / secondNumber;
     }

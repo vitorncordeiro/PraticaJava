@@ -66,7 +66,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE). Fique à vontade par
 
 ## 🙋‍♂️ Autor
 
-**Vitor N. Cordeiro**
+**Vitor Natal Cordeiro**
 
 ---
 

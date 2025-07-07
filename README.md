@@ -52,7 +52,7 @@ Repositório com exercícios em Java. Ideal para reforçar lógica de programaç
 
 ## ⚙️ Requisitos
 
-* Java 8 ou superior (especificamente utilizei java 17).
+* Java 17
 * JDK configurado corretamente no PATH.
 * Editor/IDE como IntelliJ IDEA, Eclipse, VS Code etc.
 

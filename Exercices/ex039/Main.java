@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        SalariedEmployee salariedEmployee = new SalariedEmployee("Vitor", "31/08/2007","04/07/2025", 9456.1, false);
+        SalariedEmployee salariedEmployee = new SalariedEmployee("Vitoor", "31/08/2007","04/07/2025", 9456.1, false);
         System.out.println(salariedEmployee.getAge());
         System.out.println(salariedEmployee.collectPay());
         System.out.println(salariedEmployee);

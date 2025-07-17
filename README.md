@@ -1,7 +1,7 @@
 
 # ☕ PraticaJava
 
-Repositório com exercícios em Java. Ideal para reforçar lógica de programação, estruturas de controle, manipulação de tipos primitivos e objetos, tratamento de exceções e uso de `Scanner`.
+Repositório de exercícios em Java. Ideal para reforçar lógica de programação, estruturas de controle, manipulação de tipos primitivos e objetos, tratamento de exceções e uso de `Scanner`.
 
 ---
 

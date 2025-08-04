@@ -19,7 +19,7 @@ public class Main {
                 System.out.println("Aluno nº" + (i + 1) + " Insira a nota da prova nº" + (j+1));
                 somaNotas += sc.nextDouble();
             }
-            System.out.println("Aluno nº" + (i + 1) + " Média: " + (somaNotas / provas));
+            System.out.println("Aluno nº" + (i + 1) + " Média : " + (somaNotas / provas));
         }
     }
 

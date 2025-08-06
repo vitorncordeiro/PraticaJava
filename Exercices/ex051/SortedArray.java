@@ -12,7 +12,7 @@ public class SortedArray {
         return unsortedArray;
     }
     public static void printArray(int[] array){
-        for(int i : array){
+        for(int i=0; i < array.length; i++){
             System.out.println("Element " + i + " contents " + array[i]);
         }
     }

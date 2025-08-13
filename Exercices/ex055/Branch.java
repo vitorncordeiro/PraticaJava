@@ -15,25 +15,25 @@ public class Branch {
         return name;
     }
     public boolean newCustomer(String customerName, double initialTransaction){
-        if(findCustomer(customerName != null)){
+        if(findCustomer(customerName) != null){
             return false;
         }
         customers.add(new Customer(customerName, initialTransaction));
         return true;
     }
     public boolean addCustomerTransaction(String customerName, double transaction){
-        Customer myC = new Customer(customerName, transaction);
+        Customer myC = findCustomer(customerName);
         
-        if(findCustomer(customerName == null)){
+        if(myC == null){
             return false;
         }
         myC.addTransaction(transaction);
-        
+        return true;
     }
     private Customer findCustomer(String customerName){
-        for(Customer c : customers){
-            if(c.getName() == customerName){
-                return c;
+        for(int i = 0; i < customers.size(); i++){
+            if(customers.get(i).getName() == customerName){
+                return customers.get(i);
             }
         }
         return null;

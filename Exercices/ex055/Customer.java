@@ -6,12 +6,13 @@ public class Customer {
     
     public Customer(String name, double initialTransaction){
         this.name = name;
-        this.transactions = new ArrayList<Double>(initialTransaction);
+        this.transactions = new ArrayList<Double>();
+        transactions.add(initialTransaction);
     }
     public String getName(){
         return name;
     }
-    public ArrayList<Double> getTransaction(){
+    public ArrayList<Double> getTransactions(){
         return transactions;
     }
     public void addTransaction(double transaction){

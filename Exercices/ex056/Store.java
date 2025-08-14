@@ -18,10 +18,10 @@ public class Store {
         for(OrderItem order : orders) {
             order.getProduct().showDetails();
             System.out.println( "The amount price is: " + order.getProduct().getSalesPrice(order.getQuantity()));
+            order.getProduct().printPricedItem(order.getQuantity());
             System.out.println("---------------");
         }
 
 
     }
 }
-

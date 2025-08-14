@@ -19,6 +19,8 @@ public abstract class ProductForSale {
     public double getSalesPrice(int quantity) {
         return quantity * price;
     }
+    public void printPricedItem(int quantity) {
+        System.out.println(quantity + " qty, at "+ price + " each, in a total of " + getSalesPrice(quantity));
+    }
     public abstract void showDetails();
 }
-

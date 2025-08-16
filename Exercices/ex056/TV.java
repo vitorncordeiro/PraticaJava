@@ -5,7 +5,7 @@ public class TV  extends  ProductForSale{
         super(type, price, description);
     }
     public void showDetails(){
-        System.out.println("This product is a(an) " + this.type + ", the unit price is " + this.getPrice() + " and its description is: " + this.getDescription());
+        System.out.println("This product is a(an) " + this.type + ", the  unit price is " + this.getPrice() + " and its description is: " + this.getDescription());
     }
 
 }

@@ -1,7 +1,7 @@
 
 # ☕ PraticaJava
 
-Repositório de exercícios em Java. Ideal para reforçar lógica de programação, estruturas de controle, manipulação de tipos primitivos e objetos, tratamento de exceções e uso de `Scanner`.
+Repositório de exercícios em Java puro.
 
 ---
 
@@ -41,13 +41,14 @@ Repositório de exercícios em Java. Ideal para reforçar lógica de programaç�
 * Uso de `Scanner` para entrada do usuário.
 * Laços de repetição (`while`, `do-while`, `for`) especificamente no Java.
 * Tratamento de exceções (`try-catch`) com `NumberFormatException`.
-* Conversões entre `String` e tipos primitivos (`Integer.parseInt`, `String.valueOf`).
 * Conceitos de programação defensiva e validações de input.
-* Exercícios com **arrays** e **listas**.
+* Exercícios com estruturas de dados como **arrays**, **listas**, **Stacks**, **Queues**.
 * Leitura e escrita em **arquivos**.
 * Programação **orientada a objetos** com criação de classes.
 * Práticas envolvendo **streams** e **manipulação funcional**.
-
+* Generics
+* Lambda expressions
+* Java Collections
 ---
 
 ## ⚙️ Requisitos

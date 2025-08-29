@@ -8,7 +8,7 @@ public class ContactData {
     private List<String> emailData = new ArrayList<>();
 
     public List<String> getData(String dataType){
-        if(dataType.toLowerCase().startsWith("e")){
+        if(dataType.toLowerCase().startsWith("E")){
             return emailData;
         }else{
             return phoneData;

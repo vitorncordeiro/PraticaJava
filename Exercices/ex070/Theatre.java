@@ -20,6 +20,9 @@ public class Theatre {
                 this.seat = String.valueOf(row) + col;
             }
         }
+        public String getSeat(){
+            return seat;
+        }
         @Override
         public String toString(){
             return seat;
@@ -37,13 +40,25 @@ public class Theatre {
     private Set<Seat> seats;
 
     public Theatre(String name, int numOfRows, int totalSeats){
+
         this.name = name;
         this.seatsPerRow = totalSeats/numOfRows;
+        int leftovers = totalSeats % seatsPerRow;
         seats = new TreeSet<>();
-        for(int i = 0; i <  totalSeats; i++){
-            char rowChar = (char) (i/ seatsPerRow + (int) 'A');
-            Seat current = new Seat(rowChar, (i + 1));
-            seats.add(current);
+        char rowChar = 'A';
+        for(int i = 0; i <  numOfRows; i++){
+            rowChar = (char) (65 + i);
+
+            for(int j= 0; j < seatsPerRow; j++){
+                Seat current = new Seat(rowChar, (j + 1));
+                seats.add(current);
+            }
+
+        }
+        if(leftovers > 0){
+            for (int i = seatsPerRow; i < leftovers + seatsPerRow;i++){
+                seats.add(new Seat(rowChar, (i+1)));
+            }
         }
 
     }
@@ -58,5 +73,13 @@ public class Theatre {
 
     public Set<Seat> getSeats() {
         return seats;
+    }
+    public boolean reserve(char firstRow, char lastRow, int reservationsQuantity){
+        for (int i = (int) firstRow; i <= (int)lastRow; i++){
+            seats.forEach(s -> {
+                s.getSeat().startsWith(String.valueOf((char) i));
+            });
+        }
+        return true;
     }
 }

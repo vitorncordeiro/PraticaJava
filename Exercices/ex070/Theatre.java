@@ -1,5 +1,6 @@
 package code;
 
+import java.util.ArrayList;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -23,9 +24,18 @@ public class Theatre {
         public String getSeat(){
             return seat;
         }
+
+        public boolean isReserved() {
+            return isReserved;
+        }
+
+        public void setReserved(boolean reserved) {
+            isReserved = reserved;
+        }
+
         @Override
         public String toString(){
-            return seat;
+            return seat + " --- " + (isReserved ? "Reserved" : "Available");
         }
 
         @Override
@@ -74,12 +84,23 @@ public class Theatre {
     public Set<Seat> getSeats() {
         return seats;
     }
-    public boolean reserve(char firstRow, char lastRow, int reservationsQuantity){
+    public void reserve(char firstRow, char lastRow, int reservationsQuantity){
+
         for (int i = (int) firstRow; i <= (int)lastRow; i++){
-            seats.forEach(s -> {
-                s.getSeat().startsWith(String.valueOf((char) i));
-            });
+            for(var seat : seats){
+                if(seat.getSeat().toUpperCase().startsWith(String.valueOf(((char)i)))){
+                    seat.setReserved(true);
+                }
+
+            }
         }
-        return true;
+
+    }
+    public void reserve(int reservationsQuantity){
+        var listaSeats = new ArrayList<>(seats);
+        for (int i = 0; i < reservationsQuantity; i++){
+            listaSeats.get(i).setReserved(true);
+        }
+
     }
 }

@@ -8,7 +8,7 @@ public class Main {
         teste.reserve('A', 'B', 4);
         teste.getSeats().forEach(System.out::println);
 
-        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
 
         teste.reserve(3);
         teste.getSeats().forEach(System.out::println);

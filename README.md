@@ -5,14 +5,6 @@ Repositório de exercícios em Java puro.
 
 ---
 
-## 📂 Estrutura
-
-- Cada exercício inicial está em uma classe Java separada.
-- Os exercícios que começam a incluir POO, estão em pastas com nomenclatura igual ao restante dos exercícios
-- Os nomes seguem um padrão `exNNN.java`, onde `NNN` é o número do exercício.
-
----
-
 ## 📌 Como usar
 
 1. Clone o repositório:
